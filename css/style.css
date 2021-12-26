@@ -1,0 +1,344 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #EEEDED;
+}
+a{
+    color:#24A7CF;
+}
+a:hover{
+    color:#24A7CF;
+}
+.navbar-brand *{
+    color:white;  
+}
+
+.jumbotron{
+    height: 200px;
+    overflow: hidden;
+}
+
+.jumbotron #details{
+    position: absolute;
+}
+
+.jumbotron *{
+    color: white;
+}
+
+.jumbotron #details span{
+    color:#24A7CF;
+}
+.jumbotron img{
+    width: 100%;
+}
+
+
+section .widgets{
+    margin-bottom: 20px;
+}
+
+.popular{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #E3E3E3;
+
+}
+
+
+
+.popular .details p{
+    font-family: arial;
+    font-size: 11px;
+}
+.popular img{
+    width: 100%;
+    margin-top:12px;
+
+}
+
+.popular ul li{
+    list-style:none;
+
+}
+.Categories1{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #E3E3E3;
+
+}
+
+.post{
+    background: white;
+    border:  1px solid #E3E3E3;
+    margin: 15px 0px;
+
+}
+.post .post-date{
+    padding:20px;
+
+    text-align: center;
+}
+
+.post .post-date .day{
+    font-size: 30px;
+    color:#24A7CF;
+
+}
+.post .post-date .month{
+    font-size: 18px;
+    
+
+}
+.post .post-date .year{
+    font-weight:
+    color:#24A7CF;
+
+   
+
+}
+.post .post-title{
+    padding: 5px 20px 25px 20px;
+    border-left:  1px solid #E3E3E3;
+
+}
+.post .post-title span{
+    color:#24A7CF;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.post .profile-picture{
+   padding: 25px;
+
+}
+
+.post > a> img{
+    width: 100%;
+}
+
+.post .desc{
+    font-family: arial;
+    font-weight: 100;
+    padding: 15px;
+    line-height: 20px;
+
+}
+.post >a.btn{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.post .bottom{
+    padding: 10px 20px;
+    border-top: 1px solid #E3E3E3;
+}
+
+.post .bottom{
+    color: #C6C6C6;
+
+}
+.post .bottom .first{
+    margin-right: 20px;
+
+}
+.post .bottom .second{
+    margin-left: 20px;
+}
+
+nav #pagination{
+    text-align: center;
+
+}
+.pagination >li >a{
+    color:#24A7CF;
+    padding:15px;
+    font-size: 18px;
+}
+
+footer{
+    background-color: black;
+    height:50px;
+    line-height: 50px;
+    color:white;
+    letter-spacing: 1px;
+}
+
+.contact_form{
+    background-color: white;
+    padding:50px 25px;
+}
+
+contact_form h2{
+    color:#24A7CF;
+
+
+}
+contact_form textarea{
+    resize: none;
+}
+
+.related_post{
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+
+}
+.related_post img{
+    width: 100%;
+
+}
+
+.related_post h3{
+    color: #24A7CF;
+}
+
+.author{
+    background-color: white;
+    padding: 20px;
+    margin-bottom:15px ;
+
+}
+
+.author img{
+    width: 100%;
+
+}
+.author h4{
+    color:#24A7CF;
+    text-decoration: underline;
+}
+.author p{
+    font-weight: 100%;
+}
+.comments{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.comments h3{
+    color:#24A7CF;
+
+}
+.comments img{
+    width: 50%;
+}
+.comments  h4{
+    color:#24A7CF;
+}
+.comments p{
+    font-weight:100;
+}
+.comments single_comment{
+    margin-bottom: 10px;
+}
+.comment-box{
+    margin-top: 15px;
+    background-color: white;
+    padding: 20px;
+
+}
+.comment-box textarea{
+    resize: none;
+}
+
+/*applied media query to manage website
+  when we see in small size  */
+
+  @media(max-width:992px){
+     body{
+        background: red;
+
+     }
+     .post .profile-picture{
+        text-align: center;
+        margin-top: -40px;
+    }
+
+    .post .profile-picture img{
+        width: 20%;
+    }
+    .post .post-title{
+      
+        text-align: center;
+    }
+
+  
+      
+  }
+@media (max-width:786px){
+    body{
+        background: rgb(78, 59, 59);
+    }
+    .jumbotron #details{
+        margin-top: 20px;
+    }
+
+    .post .post-title{
+        margin-top:-30px ;
+        text-align: center;
+    }
+
+    .post .profile-picture{
+        text-align: center;
+    }
+
+    .post .profile-picture img{
+        width: 20%;
+    }
+    .pagination > li >a{
+        font-size: 13px;
+        padding: 10px 12px;
+    }
+
+    .author{
+        background-color: white;
+        padding: 20px;
+        margin-bottom:15px ;
+        text-align: center;
+    
+    }
+        
+    .author img{
+        width: 30%;
+
+    }
+    .author h4{
+        color:#24A7CF;
+        text-decoration: underline;
+    }
+    .author p{
+        font-weight: 100%;
+    }
+
+    .comments{
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    .comments h3{
+        color:#24A7CF;
+    
+    }
+    .comments img{
+        width: 50%;
+    }
+    .comments  h4{
+        color:#24A7CF;
+    }
+    .comments p{
+        font-weight:100;
+    }
+    .comments single_comment{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+
+    footer{
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+
+}

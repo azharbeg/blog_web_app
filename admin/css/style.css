@@ -1,0 +1,68 @@
+ ol .breadcrumb{
+     background-color: bisque;
+ }
+ html,body{
+     height: 100%;
+ }
+ body{
+     padding-top: 60px;
+ }
+ 
+/* profile shadow  */
+ body#profile img#profile_image{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+ }
+
+ .huge{
+     font-size: 40px;
+ }
+
+ .tag-boxes .panel-primary{
+     border: 1px solid #2FA4E7;
+  }
+
+
+  .tag-boxes .panel-heading{
+      background-color: #2FA4E7;
+  }
+
+  .tag-boxes .panel-red{
+      color: white;
+      
+ 
+  }
+  #wrapper{
+      min-height:100%;
+      position: relative;
+
+  }
+.body-section{
+    padding-bottom:70px ;
+}
+  footer{
+      background: #2FA4E7;
+      color: white;
+      height: 50px;
+      line-height: 50px;
+      font-size:20px;
+      
+      bottom: 0;
+      width: 100%;
+
+  }
+  footer a{
+      color:white;
+      font-weight: bold;
+
+  }
+  footer a:hover{
+      color:black;
+      text-decoration: underline;
+
+  }
+
+ 
+  
+  
+   
+   
